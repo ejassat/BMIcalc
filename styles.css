@@ -1,0 +1,96 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Poppns', sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 0.2rem solid #fff;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    margin: 0 1rem 1rem ;
+    width: 90%;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem
+}
+
+button {
+    width: 70%;
+    height: 2.5rem;
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+button:active {
+    width: 70%;
+    background-color: rgb(108, 199, 17);
+    border: none;
+    border-radius: 5px;
+}
+
+.result {
+    display: block;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 568px) {
+
+    h1 {
+        text-align: center;
+        padding-bottom: 1rem;
+        border-bottom: 0.2rem solid #fff;
+    }
+
+    input {
+        display: block;
+        width: 40%;
+        margin: auto;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    button {
+        width: 40%;
+        height: 2.5rem;
+        background-color: chartreuse;
+        border: none;
+        border-radius: 5px;
+        margin: 3.5rem auto;
+        display: block;
+        font-size: 1.2rem;
+    }
+    
+    button:active {
+        width: 40%;
+        background-color: rgb(108, 199, 17);
+        border: none;
+        border-radius: 5px;
+    }
+
+    .container {
+        border-bottom: 0.2rem solid #fff;
+        padding-bottom: 1.5rem;
+    }
+}
